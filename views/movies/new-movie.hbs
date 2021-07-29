@@ -1,0 +1,40 @@
+<h2> NEW MOVIES</h2>
+
+<form action="/movies/create" method="POST">
+<div>
+    <label for="title">Title : </label>
+    <input type="text" id="title" name="title">
+</div>
+<div>
+    <label for="genre"> Genre : </label>
+    <select name="genre" id="genre">
+
+    <option value="comedy" id="comdedy">Comedy</option>
+    <option value="horror" id="horror">Horror</option>
+    <option value="drama" id="drama">Drama</option>
+    <option value="fantastic" id="fantastic">Fantastic</option>
+    <option value="other" id="Other">Other</option>
+
+
+    </select>
+    
+    
+</div>
+<div>
+    <label for="cast">Cast: </label>
+
+    <select name="cast" id="cast">
+
+    <option value="johnny" id="">Johnny Halliday</option>
+    <option value="Pikachu">Pikachu</option>
+    <option value="mj">Mickael Jackson</option>
+    <option value="other" id="Other">Other</option>
+
+    </select>
+    
+</div>
+
+
+<button type="submit">ADD A NEW MOVIE</button>
+</form>
+
